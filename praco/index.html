@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Split Screen Layout</title>
+    <style>
+        /* General styling for body */
+        body {
+            margin: 0;
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Left side container */
+        .left {
+            width: 30%;
+            background-color: #729ac2; /* Light gray for visual differentiation */
+            padding: 20px;
+        }
+
+        /* Right side container */
+        .right {
+            width: 70%;
+            background-color: #729ac2;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+
+        /* Image container styling */
+        .image-grid {
+            margin-top: auto;
+            height: 75%; /* Takes 75% of the right section from the bottom */
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 4 images per row */
+            gap: 10px;
+        }
+
+        /* Image styling */
+        .image-grid img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="left">
+        <!-- Content for the left side goes here -->
+        <h2><img src="logo 5.png"> </h2>
+        <br>
+        <p style="font-size:160%;">CATEGORIES</p>
+        <h1 style="background-color:rgb(227, 239, 241);">GUEST HOUSE</h1>
+        <h1 style="background-color:powderblue;">APPARTMENTS</h1>
+
+        <h1 style="background-color:rgb(239, 249, 250);">MODERN ROOMS</h1>
+        <h1 style="background-color:powderblue;">AIRBNB</h1>
+
+        <h1 style="background-color:powderblue;">OFFICE SPACE</h1>
+
+        <h1 style="background-color:powderblue;">EVENT HALLS</h1>
+        <h1 style="background-color:powderblue;">GAME SPACE</h1>
+
+    </div>
+    <div class="right">
+        <!-- Content above the images can go here -->
+        
+        <h2>HOUSING SOLUTION</h2>
+        
+        <p>EASY ACCOMODATION SOLUTION<
+        <!-- Image grid section -->
+        <div class="image-grid">
+            <!-- Add images here (e.g., src can be local or from the web) -->
+            <img src="1.jpg" alt="Image 1">
+            <img src="2.jpg" alt="Image 2">
+            <img src="3.jpg" alt="Image 3">
+            <img src="4.jpg" alt="Image 4">
+            <img src="5.jpg" alt="Image 5">
+            <img src="6.jpg" alt="Image 6">
+            <img src="7.jpg" alt="Image 7">
+            <img src="8.jpg" alt="Image 8">
+        </div>
+    </div>
+</body>
+</html>
