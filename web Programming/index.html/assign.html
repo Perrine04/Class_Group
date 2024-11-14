@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Halves Layout</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh; /* Full height of the viewport */
+        }
+        .left-half, .right-half {
+            flex: 1; /* Each half takes equal space */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .left-half {
+            background-color: #4CAF50; /* Green */
+            color: white;
+        }
+        .right-half {
+            background-color: #2196F3; /* Blue */
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+         <div class="container">
+        <h1>Section One</h1>
+        <div class="flex-container">
+            <img src="C:\Users\domchalpo\Desktop\web Programming\image\vanilla cake.png" class="image-corner">
+            <p>This is the text beside the corner image. You can write a description or any relevant information here.</p>
+        </div>
+        
+        <h2>Image List</h2>
+        <div class="list-container">
+            <div class="list-item">
+                <img src="C:\Users\domchalpo\Desktop\web Programming\image\vanilla cake.png">
+                <p>Description for image 1.</p>
+            </div>
+            <div class="list-item">
+                <img src="C:\Users\domchalpo\Desktop\web Programming\image\vanilla cake.png">
+                <p>Description for image 2.</p>
+            </div>
+            <div class="list-item">
+                <img src="C:\Users\domchalpo\Desktop\web Programming\image\vanilla cake.png">
+                <p>Description for image 3.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+</html>

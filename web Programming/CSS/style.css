@@ -1,0 +1,14 @@
+body {
+	display: flex;
+	gap:2%;
+}
+.section1 {
+	width: 30%;
+	border: solid black 2px;
+}
+.section2 {
+	width: 70%;
+	border: solid black 2px;
+}
+
+ 
