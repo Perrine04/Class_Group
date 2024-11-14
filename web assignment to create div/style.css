@@ -1,0 +1,284 @@
+body {
+    background-color: #2c2c2e;
+}
+.main {
+    display: flex;
+    background-color: #2c2c2e;
+    width: 100%;
+    height: 100%;
+}
+.main_1 {
+    border: ;
+    width: 30%;
+    height: 100%;
+    margin-right: 2%;
+}
+.main2 {
+    border: ;
+    width: 70%;
+    height: 100%;
+    
+}
+.image_and_text {
+    border: ;
+    display: flex;
+    width: 100%;
+    height: 20%;
+}
+.logo {
+    background-image: url('logo.PNG');
+    background-size: cover;
+    border-radius: 50%;
+    width: 50%;
+    
+}
+.search {
+ border: ;   
+ 
+}
+    
+}
+.name {
+    border-radius: 100%;
+    width: 55%;
+    height: 75%;
+}
+.pic1 {
+    
+    width: 30%;
+    height: 70%;
+}
+.list {
+    width: 100%;
+    height: 20%;
+    align-items: center;
+}
+p{
+    font-family: bold;
+    color: #fff;
+    text-align: center;
+    font-size: 30PX;
+}
+.pic1 {
+    background-image: url('logo.PNG');
+    background-size: cover;
+    border-radius: 50%;
+    height: 40%;
+    width: 20%;
+    margin-right: 10%;
+}
+.related {
+    margin: 2%;
+    width: 90%;
+    height: 30%;
+    font-family: bold;
+    font-size: 30px;
+}
+.footer2 {
+    margin-top: 40%;
+    border: ;
+    height: 20%;
+
+}
+.copy {
+    margin-top: 10%;
+    color: aliceblue;
+    text-align: center;
+}
+.list_2 {
+    width: 100%;
+    height: 20%;
+}
+
+.input {
+    border: ;
+    width: 100%;
+    height: 20%;
+    
+    
+}
+.h1_input {
+    display: flex;
+    height: 20%;
+    border: ;
+}
+.zone {
+    border: ;
+    height: 100%;
+    width: 80%;
+}
+H1{
+    font-size: 40PX;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.input2 {
+    border: ;
+    width: 80%;
+    height: 40%;
+    margin-left: 50%;
+    
+}
+.IMAGES_GAMES {
+    display: flex;
+    border: ;
+    height: 30%;
+}
+.IMAGES_GAMES2 {
+    display: flex;
+    border: ;
+    height: 30%;
+}
+
+.div_im2{
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid;
+    cursor: pointer;
+    background-image: url('2898.jpg');
+    background-size: cover;
+}
+.div_im3{
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid;
+    cursor: pointer;
+    background-image: url('FIFA.jpeg');
+    background-size: cover;
+}
+.div_im4{
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid;
+    cursor: pointer;
+    background-image: url('GTA\ 6.jpeg');
+    background-size: cover;
+}
+.div_im5{
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid;
+    cursor: pointer;
+    background-image: url('nba.jpg');
+    background-size: cover;
+}
+.div_im6{
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid;
+    cursor: pointer;
+    background-image: url('us.jpg');
+    background-size: cover;
+}
+.div_im7{
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    height: 60%;
+    margin-right: 2%;
+    margin-top: 2%;
+    border: solid;
+    cursor: pointer;
+    background-image: url('DEVIL.jpg');
+    background-size: cover;
+}
+
+.div_im2:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+
+}
+.div_im3:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+
+}
+.div_im4:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+
+}
+.div_im5:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+
+}
+.div_im6:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+
+}
+.div_im7:hover {
+    background-color: lightgreen;
+    transform: scale(1.1);
+
+}
+h2 {
+    color: aliceblue;
+    text-align: center;
+    font-size: medium;
+    font-family: bold;
+    margin-bottom: 100%;
+}
+.footer {
+    border: ;
+    height: 15%;
+    width: 100%;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    background-color: #2c2c2e;
+    border: ;
+    height: 50%;
+    margin-top: 3%;
+    
+}
+.number {
+    border:;
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+    width: 70PX;
+    color: black;
+    background-color: green;
+    margin-left: 2%;
+}
+.buttons {
+        display: flex;
+        justify-content: space-around; 
+        align-items: center; 
+     background-color: #2c2c2e;;
+        border: ;
+        height: 50%;
+        margin-left: 45%;
+        
+}
