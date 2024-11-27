@@ -1,0 +1,191 @@
+*{
+    font-family: 'Arial', sans-serif;
+}
+.main {
+    height: screen;
+    display: flex;
+    background: url(/images/WhatsApp\ Image\ 2024-10-21\ at\ 09.58.04_33e757df.jpg);
+}
+
+.contact {
+    width: 30%;
+    margin-right: 1.5%;
+    background: url(/images/WhatsApp\ Image\ 2024-10-21\ at\ 09.58.04_33e757df.jpg);
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+
+.contents {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
+}
+
+.img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+}
+img {
+    width: 70px;
+    height: 70px;
+    border-radius: 40px;
+}
+li{
+    list-style: none;
+}
+.nav1{
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav2{
+    margin: 0.4%;
+    display: flex;
+    justify-content: space-between;
+}
+.circle{
+    display: flex;
+    justify-content: center;
+}
+.circle img{
+    margin-top: 7px;
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+.info img{
+    width: 120px;
+    height: 120px;
+}
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+.search-container {
+    display: flex;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar {
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    width: 100px;
+    transition: all 0.3s ease;
+    
+}
+
+.search-bars {
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    border-radius: 30px 0 0 30px;
+    outline: none;
+    width: 300px;
+    transition: all 0.3s ease;
+}
+
+.search-bar:focus {
+    box-shadow: 0 0 5px rgba(66, 133, 244, 0.5);
+}
+
+.search-button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 0 30px 30px 0;
+    transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+    background-color: #357ae8;
+}
+
+.rectangle-box {
+    width: 350px;
+    height: 100px;
+    background-color: none; 
+    border-radius: 10px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.images{
+    display: flex;
+    margin: 5px 20px;
+    justify-content: space-around;
+}
+.images img{
+    height: 120px;
+    width: 120px;
+    margin: 20px 0;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.footer div a{
+    margin: 15px 0;
+}
+.text{
+    display: block;
+    justify-content: center;
+}
+.text p{
+   color: aliceblue;
+}
+a{
+    text-decoration: none;
+}
+.friends li{
+    display: flex;
+    align-items: center;
+}
+.friends li img{
+    margin-right: 5px;
+}
+.para{
+    color: white;
+}
+.ppp a{
+    color: white;
+    margin: 0px 10px;
+}
+.pic {
+    width: 30px;
+    height: 30px;
+}
+
+.rectangle-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
+}
+.rectangle-box  img{
+    background-color: linear-gradient(45deg, #ff6b6b);
+}
+.footer2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin: 20px;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
